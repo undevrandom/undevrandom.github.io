@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+.textColor {
+    color: #3a3a3a;
+}
+
+.myColor {
+    color: #7510F7 !important;
+}
+
+.bgPerso {
+    background-color: #7510F7;
+    color: #FFFFFF;
+}
+
+.btn:visited {
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #8A33F7;
+    color: #ffffff;
+}
+
+.menuFix {
+    margin-top: 75px;
+}
+
+.fa-bars {
+    font-size: 30px;
+}
+
+.photo {
+    border: 2px solid #7510F7 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    box-shadow: none;
+}
+
+.interetCard {
+    width: 20%;
+    margin-top: 20px;
+}
+
+@keyframes pulse {
+	0% {	
+		box-shadow: 0 0 0 0 rgba(116, 16, 247, 0.7);
+	}
+	70% {	
+		box-shadow: 0 0 0 10px rgba(116, 16, 247, 0);
+	}
+	100% {	
+		box-shadow: 0 0 0 0 rgba(116, 16, 247, 0);
+	}
+}
+
+#goUp {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    background-color: rgba(56,55,55,0.6);
+    height: 40px;
+    width: 50px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+    display: none;
+}
